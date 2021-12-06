@@ -174,3 +174,9 @@ ifneq ($(OF_HIDE_NOTCH),1)
 endif
 
 TARGET_SCREEN_HEIGHT := 2460
+
+# PBRP specific flags
+PB_DISABLE_DEFAULT_DM_VERITY := true
+PB_TORCH_PATH := "/sys/devices/virtual/torch/torch/torch_level"
+PB_TORCH_MAX_BRIGHTNESS := 2
+
